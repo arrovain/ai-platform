@@ -1,7 +1,7 @@
+import { md5 } from "md5";
 import { Pinecone, PineconeRecord } from "@pinecone-database/pinecone";
 import { downloadFromS3 } from "./s3-server";
 import { PDFLoader } from "langchain/document_loaders/fs/pdf";
-import md5 from "md5";
 import {
   Document,
   RecursiveCharacterTextSplitter,
